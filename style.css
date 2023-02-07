@@ -2,7 +2,11 @@
 
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+
 }
 header{
     background: #bbbb;
@@ -41,6 +45,12 @@ nav a:hover{
     color: rgb(172, 94, 21)
 }
 
+.cotainer{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+  
 .produtos{
     width: 950px;
     margin: 0 auto;
@@ -48,8 +58,10 @@ nav a:hover{
 }
 
 
-.produtos li{
-    display:inline-block;
+.produtos li {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 30%;
     vertical-align: top;
