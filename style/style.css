@@ -1,0 +1,112 @@
+@import url(style-home.css);
+@import url(reset.css);
+@import url(contatos.css);
+@import url(produtos.css);
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-family:  sans-serif;
+
+
+}
+
+header {
+    background: #9e9e9ebb;
+    padding: 20px 0;
+
+}
+
+.caixa img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.caixa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+}
+
+nav li {
+    height: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(172, 94, 21)
+}
+
+footer img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+
+
+.copyright {
+    color: #ffffff;
+    margin: 20px 0 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .caixa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    nav {
+        margin: 0 auto;
+        display: block;
+
+    }
+
+}
