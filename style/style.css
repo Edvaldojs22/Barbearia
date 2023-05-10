@@ -11,12 +11,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     font-family:  sans-serif;
-
-
+    
 }
 
 header {
-    background: #9e9e9ebb;
+ background-image: url(imagem_fundo_mobile.jpg);
     padding: 20px 0;
 
 }
@@ -42,10 +41,8 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 300px;
-
+    width: 100%;
 }
 
 nav li {
@@ -57,25 +54,30 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000;
-    font-weight: 500;
-    font-size: 22px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
     text-decoration: none;
+ 
 
 }
 
+
 nav a:hover {
     text-decoration: underline;
-    color: rgb(172, 94, 21)
+    text-decoration:none ;
+    text-shadow: 0 0 20px red;
+        
 }
 
 footer img {
     width: 200px;
     height: 200px;
+    
 }
 
 footer {
-    background-color: black;
+    background-image: url(imagem_fundo_mobile.jpg);
     text-align: center;
     width: 100%;
     padding: 40px 0;
@@ -84,8 +86,9 @@ footer {
 
 
 .copyright {
-    color: #ffffff;
+    color: #000000;
     margin: 20px 0 0;
+    font-weight: 600;
 }
 
 

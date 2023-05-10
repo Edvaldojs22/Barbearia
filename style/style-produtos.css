@@ -1,10 +1,12 @@
 
 
 
+
 .cotainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(56, 55, 55);
 }
 
 .produtos {
@@ -19,18 +21,19 @@
 .produtos li {
     text-align: center;
     width: 25%;
-
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    background-color: rgb(221, 221, 221);
     border-radius: 10px;
     transition: transform 0.2s
 }
 
+
+
 .produtos li:hover {
     transform: scale(1.1);
-    border-color: rgb(172, 94, 21);
     color: rgb(172, 94, 21);
+    border: 5px solid rgb(172, 94, 21) ;
 }
 
 
