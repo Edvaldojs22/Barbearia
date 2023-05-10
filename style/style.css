@@ -10,13 +10,14 @@ body {
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    font-family:  sans-serif;
-    
+    font-family: sans-serif;
+
 }
 
 header {
- background-image: url(imagem_fundo_mobile.jpg);
+    background-image: url(imagem_fundo_mobile.jpg);
     padding: 20px 0;
+    height: 250px;
 
 }
 
@@ -42,6 +43,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -58,22 +60,21 @@ nav a {
     font-weight: 800;
     font-size: 20px;
     text-decoration: none;
- 
 
 }
 
 
 nav a:hover {
     text-decoration: underline;
-    text-decoration:none ;
+    text-decoration: none;
     text-shadow: 0 0 20px red;
-        
+
 }
 
 footer img {
     width: 200px;
     height: 200px;
-    
+
 }
 
 footer {
@@ -94,6 +95,10 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+
+    header{
+        height: 250px;
+    }
 
     .caixa {
         display: flex;
